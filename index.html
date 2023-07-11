@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wordle cheater</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div id="letterSection" class="section">
+        <div>remove letters that cannot be in the respective spots</div>
+        <input type="text" name="letter1" id="letter1" class="letter" value="abcdefghijklmnopqrstuvwxyz"
+            oninput="run(this)">
+        <input type="text" name="letter2" id="letter2" class="letter" value="abcdefghijklmnopqrstuvwxyz"
+            oninput="run(this)">
+        <input type="text" name="letter3" id="letter3" class="letter" value="abcdefghijklmnopqrstuvwxyz"
+            oninput="run(this)">
+        <input type="text" name="letter4" id="letter4" class="letter" value="abcdefghijklmnopqrstuvwxyz"
+            oninput="run(this)">
+        <input type="text" name="letter5" id="letter5" class="letter" value="abcdefghijklmnopqrstuvwxyz"
+            oninput="run(this)">
+        <div>Write the letters that have become grey</div>
+        <input type="text" name="greyLetters" id="greyLetters" class="letter" value="" oninput="run(this)">
+    </div>
+    <div id="answerSection" class="section">
+        <div>There are 5757 possibilities.</div>
+    </div>
+</body>
+
+</html>
